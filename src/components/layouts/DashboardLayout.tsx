@@ -220,7 +220,7 @@ export function DashboardLayout({ role = 'student' }: { role?: 'student' | 'facu
                   <Link to={`/${role}/profile`}>My Profile</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link to="/signin">Sign out</Link>
+                  <Link to="/">Sign out</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
